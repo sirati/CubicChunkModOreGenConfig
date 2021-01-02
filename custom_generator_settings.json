@@ -131,8 +131,8 @@
          "spawnSize":33,
          "spawnTries":10,
          "spawnProbability":0.0625,
-         "minHeight":-Infinity,
-         "maxHeight":Infinity
+         "minHeight":"-Infinity",
+         "maxHeight":"Infinity"
       },
       {
          "blockstate":{
@@ -144,8 +144,8 @@
          "spawnSize":33,
          "spawnTries":8,
          "spawnProbability":0.0625,
-         "minHeight":-Infinity,
-         "maxHeight":Infinity
+         "minHeight":"-Infinity",
+         "maxHeight":"Infinity"
       },
       {
          "blockstate":{
@@ -160,7 +160,7 @@
          "spawnSize":33,
          "spawnTries":10,
          "spawnProbability":0.20000000298023224,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":0.25
       },
       {
@@ -176,7 +176,7 @@
          "spawnSize":33,
          "spawnTries":10,
          "spawnProbability":0.20000000298023224,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":0.25
       },
       {
@@ -192,7 +192,7 @@
          "spawnSize":33,
          "spawnTries":10,
          "spawnProbability":0.20000000298023224,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":0.25
       },
       {
@@ -205,7 +205,7 @@
          "spawnSize":17,
          "spawnTries":20,
          "spawnProbability":0.125,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":1.0
       },
       {
@@ -218,7 +218,7 @@
          "spawnSize":9,
          "spawnTries":20,
          "spawnProbability":0.25,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":0.0
       },
       {
@@ -231,7 +231,7 @@
          "spawnSize":9,
          "spawnTries":2,
          "spawnProbability":0.5,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.5
       },
       {
@@ -244,7 +244,7 @@
          "spawnSize":8,
          "spawnTries":8,
          "spawnProbability":1.0,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.75
       },
       {
@@ -257,7 +257,7 @@
          "spawnSize":8,
          "spawnTries":1,
          "spawnProbability":1.0,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.75
       },
       {
@@ -276,7 +276,7 @@
          "spawnSize":3,
          "spawnTries":11,
          "spawnProbability":0.2857142984867096,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":0.0
       },
       {
@@ -289,7 +289,7 @@
          "spawnSize":3,
          "spawnTries":1,
          "spawnProbability":0.2857142984867096,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-2.0
       },
       {
@@ -301,7 +301,8 @@
          },
          "biomes":null,
          "placeBlockWhen":null,
-         "generateWhen":"allOf":[
+         "generateWhen":{
+            "allOf":[
                {
                   "anyOf":[
                      {
@@ -381,7 +382,7 @@
          "spawnSize":3,
          "spawnTries":15,
          "spawnProbability":1,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.25
       },
       {
@@ -389,58 +390,61 @@
             "Name":"minecraft:netherrack"
          },
          "biomes":null,
-         "placeBlockWhen":{"noneOf":[
-      {
-         "x":0,
-         "y":0,
-         "z":0,
-         "blocks":[
-            {
-               "Name":"minecraft:netherrack"
-            },
-            {
-               "Name":"minecraft:air"
-            },
-            {
-               "Name":"tconstruct:ore",
-               "Properties":{
-                  "type":"cobalt"
+         "placeBlockWhen":{
+            "noneOf":[
+               {
+                  "x":0,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"cobalt"
+                        }
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:cobblestone"
+                     },
+                     {
+                        "Name":"minecraft:mossy_cobblestone"
+                     },
+                     {
+                        "Name":"minecraft:chest"
+                     },
+                     {
+                        "Name":"minecraft:spawner"
+                     }
+                  ]
                }
-            },
-            {
-               "Name":"tconstruct:ore",
-               "Properties":{
-                  "type":"ardite"
-               }
-            },
-            {
-               "Name":"magicbees:hiveblock",
-               "Properties":{
-                  "hivetype":"infernal"
-               }
-            },
-            {
-               "Name":"minecraft:cobblestone"
-            },
-            {
-               "Name":"minecraft:mossy_cobblestone"
-            },
-            {
-               "Name":"minecraft:chest"
-            },
-            {
-               "Name":"minecraft:spawner"
-            }
-         ]
-      }]},
+            ]
+         },
          "generateWhen":null,
          "spawnSize":128,
          "spawnTries":1,
          "spawnProbability":0.01,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.75
       },
-            {
+      {
          "blockstate":{
             "Name":"tconstruct:ore",
             "Properties":{
@@ -636,16 +640,16 @@
                      }
                   ]
                },
-	  {
-         "x":0,
-         "y":0,
-         "z":0,
-         "blocks":[
-            {
-               "Name":"minecraft:netherrack"
-            }
-         ]
-      }
+               {
+                  "x":0,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     }
+                  ]
+               }
             ]
          },
          "generateWhen":{
@@ -660,8 +664,8 @@
          },
          "spawnSize":11,
          "spawnTries":8,
-         "spawnProbability": 1,
-         "minHeight":-Infinity,
+         "spawnProbability":1,
+         "minHeight":"-Infinity",
          "maxHeight":-0.75
       },
       {
@@ -860,16 +864,16 @@
                      }
                   ]
                },
-	  {
-         "x":0,
-         "y":0,
-         "z":0,
-         "blocks":[
-            {
-               "Name":"minecraft:netherrack"
-            }
-         ]
-      }
+               {
+                  "x":0,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     }
+                  ]
+               }
             ]
          },
          "generateWhen":{
@@ -885,7 +889,7 @@
          "spawnSize":11,
          "spawnTries":8,
          "spawnProbability":1,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.75
       },
       {
@@ -1084,16 +1088,16 @@
                      }
                   ]
                },
-	  {
-         "x":0,
-         "y":0,
-         "z":0,
-         "blocks":[
-            {
-               "Name":"minecraft:netherrack"
-            }
-         ]
-      }
+               {
+                  "x":0,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     }
+                  ]
+               }
             ]
          },
          "generateWhen":{
@@ -1109,7 +1113,7 @@
          "spawnSize":3,
          "spawnTries":14,
          "spawnProbability":1,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.75
       },
       {
@@ -1122,7 +1126,7 @@
          "spawnSize":69,
          "spawnTries":1,
          "spawnProbability":0.01,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.75
       },
       {
@@ -1147,7 +1151,7 @@
          "spawnSize":3,
          "spawnTries":200,
          "spawnProbability":1,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.75
       },
       {
@@ -1159,7 +1163,8 @@
          },
          "biomes":null,
          "placeBlockWhen":null,
-         "generateWhen":"allOf":[
+         "generateWhen":{
+            "allOf":[
                {
                   "anyOf":[
                      {
@@ -1239,7 +1244,7 @@
          "spawnSize":3,
          "spawnTries":10,
          "spawnProbability":0.2857142984867096,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.25
       },
       {
@@ -1252,7 +1257,7 @@
          "spawnSize":3,
          "spawnTries":25,
          "spawnProbability":0.2857142984867096,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.25
       },
       {
@@ -1345,7 +1350,7 @@
          "spawnSize":30,
          "spawnTries":1,
          "spawnProbability":0.125,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.25
       },
       {
@@ -1438,7 +1443,7 @@
          "spawnSize":30,
          "spawnTries":1,
          "spawnProbability":0.125,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.25
       },
       {
@@ -1531,7 +1536,7 @@
          "spawnSize":30,
          "spawnTries":1,
          "spawnProbability":0.125,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.25
       },
       {
@@ -1624,7 +1629,7 @@
          "spawnSize":30,
          "spawnTries":1,
          "spawnProbability":0.125,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.25
       },
       {
@@ -1717,7 +1722,7 @@
          "spawnSize":30,
          "spawnTries":1,
          "spawnProbability":0.125,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.25
       },
       {
@@ -1810,7 +1815,7 @@
          "spawnSize":30,
          "spawnTries":1,
          "spawnProbability":0.125,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.25
       },
       {
@@ -1844,8 +1849,8 @@
          "spawnSize":8,
          "spawnTries":3,
          "spawnProbability":1,
-         "minHeight":-Infinity,
-         "maxHeight":Infinity
+         "minHeight":"-Infinity",
+         "maxHeight":"Infinity"
       },
       {
          "blockstate":{
@@ -1884,8 +1889,8 @@
          "spawnSize":8,
          "spawnTries":3,
          "spawnProbability":1,
-         "minHeight":-Infinity,
-         "maxHeight":Infinity
+         "minHeight":"-Infinity",
+         "maxHeight":"Infinity"
       },
       {
          "blockstate":{
@@ -1924,8 +1929,8 @@
          "spawnSize":8,
          "spawnTries":3,
          "spawnProbability":1,
-         "minHeight":-Infinity,
-         "maxHeight":Infinity
+         "minHeight":"-Infinity",
+         "maxHeight":"Infinity"
       },
       {
          "blockstate":{
@@ -1949,7 +1954,7 @@
          "spawnSize":6,
          "spawnTries":40,
          "spawnProbability":1,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.75
       },
       {
@@ -1965,7 +1970,7 @@
          "spawnSize":8,
          "spawnTries":8,
          "spawnProbability":1,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.75
       },
       {
@@ -1981,7 +1986,7 @@
          "spawnSize":7,
          "spawnTries":1,
          "spawnProbability":1,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.25
       },
       {
@@ -1994,7 +1999,7 @@
          "spawnSize":9,
          "spawnTries":1,
          "spawnProbability":1,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.75
       },
       {
@@ -2007,7 +2012,7 @@
          "spawnSize":9,
          "spawnTries":2,
          "spawnProbability":0.5,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.5
       },
       {
@@ -2020,7 +2025,7 @@
          "spawnSize":13,
          "spawnTries":5,
          "spawnProbability":0.5,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.5
       },
       {
@@ -2042,7 +2047,7 @@
          "spawnSize":4,
          "spawnTries":30,
          "spawnProbability":1,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.75
       },
       {
@@ -2055,7 +2060,7 @@
          "spawnSize":9,
          "spawnTries":2,
          "spawnProbability":0.5,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.5
       },
       {
@@ -2068,7 +2073,7 @@
          "spawnSize":9,
          "spawnTries":2,
          "spawnProbability":0.5,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.5
       },
       {
@@ -2084,7 +2089,7 @@
          "spawnSize":11,
          "spawnTries":3,
          "spawnProbability":0.5,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.25
       },
       {
@@ -2100,7 +2105,7 @@
          "spawnSize":11,
          "spawnTries":3,
          "spawnProbability":0.5,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.25
       },
       {
@@ -2116,7 +2121,7 @@
          "spawnSize":13,
          "spawnTries":5,
          "spawnProbability":0.5,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":0
       },
       {
@@ -2132,7 +2137,7 @@
          "spawnSize":13,
          "spawnTries":5,
          "spawnProbability":0.5,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":0
       },
       {
@@ -2148,7 +2153,7 @@
          "spawnSize":13,
          "spawnTries":5,
          "spawnProbability":0.5,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":0
       },
       {
@@ -2170,7 +2175,7 @@
          "spawnSize":7,
          "spawnTries":7,
          "spawnProbability":0.25,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.5
       },
       {
@@ -2208,7 +2213,7 @@
          "heightMean":-0.75,
          "heightStdDeviation":0.1123170480132103,
          "heightSpacing":3.0,
-         "minHeight":-Infinity,
+         "minHeight":"-Infinity",
          "maxHeight":-0.5
       }
    ],
