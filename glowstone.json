@@ -222,7 +222,7 @@
 
 #main crystal
 #have glowstone crystals grow in spikes, we do this by extending two glowstone crystals outwards further
-#however to avoid the spikes to fill up everything only allow them if we have a free side
+#however to avoid the spikes to fill up everything only allow them if we have both sides free
 
 {
    "anyOf":[
@@ -249,14 +249,14 @@
                ]
             },
             {
-               "anyOf":[
+               "noneOf":[
                   {
                      "x":0,
                      "y":0,
                      "z":1,
                      "blocks":[
                         {
-                           "Name":"minecraft:air"
+                           "Name":"minecraft:glowstone"
                         }
                      ]
                   },
@@ -266,7 +266,7 @@
                      "y":-1,
                      "blocks":[
                         {
-                           "Name":"minecraft:air"
+                           "Name":"minecraft:glowstone"
                         }
                      ]
                   }
@@ -297,14 +297,14 @@
                ]
             },
             {
-               "anyOf":[
+               "noneOf":[
                   {
                      "x":0,
                      "y":0,
                      "z":1,
                      "blocks":[
                         {
-                           "Name":"minecraft:air"
+                           "Name":"minecraft:glowstone"
                         }
                      ]
                   },
@@ -314,7 +314,7 @@
                      "y":-1,
                      "blocks":[
                         {
-                           "Name":"minecraft:air"
+                           "Name":"minecraft:glowstone"
                         }
                      ]
                   }
@@ -345,14 +345,14 @@
                ]
             },
             {
-               "anyOf":[
+               "noneOf":[
                   {
                      "x":1,
                      "y":0,
                      "z":0,
                      "blocks":[
                         {
-                           "Name":"minecraft:air"
+                           "Name":"minecraft:glowstone"
                         }
                      ]
                   },
@@ -362,7 +362,7 @@
                      "y":0,
                      "blocks":[
                         {
-                           "Name":"minecraft:air"
+                           "Name":"minecraft:glowstone"
                         }
                      ]
                   }
@@ -393,14 +393,14 @@
                ]
             },
             {
-               "anyOf":[
+               "noneOf":[
                   {
                      "x":1,
                      "y":0,
                      "z":0,
                      "blocks":[
                         {
-                           "Name":"minecraft:air"
+                           "Name":"minecraft:glowstone"
                         }
                      ]
                   },
@@ -410,7 +410,7 @@
                      "y":0,
                      "blocks":[
                         {
-                           "Name":"minecraft:air"
+                           "Name":"minecraft:glowstone"
                         }
                      ]
                   }
@@ -559,8 +559,33 @@
 
 #then remove last comma, beuatify and insert into following: 
 #we want glowstone to generate below already existing spikes to allow for now spikes in other directions to form
-#so we check if above or diagonally above us there is glowstone
+#so we check if above or diagonally above us if there is a spikes
+# S = spikes
+# G = glowstone
+# # one below, our location 
+#
+# SS SS
+#   #
+# SS SS
+#
+# OR
+#
+#  S S 
+#  S S 
+#   #  
+#  S S 
+#  S S 
+#
+# OR glowstone just above us
+# 
+#  G
+#
+#
+#only one of the 8 possible spikes is needed, combined 4 per graphic for brevity
 
+#helper regex for symetric, requires all spaces and line delimiters to be removed
+#"x":([\d-]+)(,"y":[\d-]+,"z":)([\d-]+)
+#"x":$3$2$1
 
 {
    "allOf":[
@@ -577,42 +602,194 @@
                ]
             },
             {
-               "x":1,
-               "y":1,
-               "z":1,
-               "blocks":[
+               "allOf":[
                   {
-                     "Name":"minecraft:glowstone"
+                     "x":2,
+                     "y":1,
+                     "z":1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":1,
+                     "y":1,
+                     "z":1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
                   }
                ]
             },
             {
-               "x":-1,
-               "y":1,
-               "z":1,
-               "blocks":[
+               "allOf":[
                   {
-                     "Name":"minecraft:glowstone"
+                     "x":-2,
+                     "y":1,
+                     "z":1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":-1,
+                     "y":1,
+                     "z":1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
                   }
                ]
             },
             {
-               "x":1,
-               "y":1,
-               "z":-1,
-               "blocks":[
+               "allOf":[
                   {
-                     "Name":"minecraft:glowstone"
+                     "x":2,
+                     "y":1,
+                     "z":-1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":1,
+                     "y":1,
+                     "z":-1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
                   }
                ]
             },
             {
-               "x":-1,
-               "y":1,
-               "z":-1,
-               "blocks":[
+               "allOf":[
                   {
-                     "Name":"minecraft:glowstone"
+                     "x":-2,
+                     "y":1,
+                     "z":-1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":-1,
+                     "y":1,
+                     "z":-1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "allOf":[
+                  {
+                     "x":1,
+                     "y":1,
+                     "z":2,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":1,
+                     "y":1,
+                     "z":1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "allOf":[
+                  {
+                     "x":1,
+                     "y":1,
+                     "z":-2,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":1,
+                     "y":1,
+                     "z":-1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "allOf":[
+                  {
+                     "x":-1,
+                     "y":1,
+                     "z":2,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":-1,
+                     "y":1,
+                     "z":1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "allOf":[
+                  {
+                     "x":-1,
+                     "y":1,
+                     "z":-2,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":-1,
+                     "y":1,
+                     "z":-1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
                   }
                ]
             }
@@ -630,6 +807,7 @@
 
 {
    "allOf":[
+      {
          "anyOf":[
             {
                "x":0,
@@ -642,42 +820,194 @@
                ]
             },
             {
-               "x":1,
-               "y":1,
-               "z":1,
-               "blocks":[
+               "allOf":[
                   {
-                     "Name":"minecraft:glowstone"
+                     "x":2,
+                     "y":1,
+                     "z":1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":1,
+                     "y":1,
+                     "z":1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
                   }
                ]
             },
             {
-               "x":-1,
-               "y":1,
-               "z":1,
-               "blocks":[
+               "allOf":[
                   {
-                     "Name":"minecraft:glowstone"
+                     "x":-2,
+                     "y":1,
+                     "z":1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":-1,
+                     "y":1,
+                     "z":1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
                   }
                ]
             },
             {
-               "x":1,
-               "y":1,
-               "z":-1,
-               "blocks":[
+               "allOf":[
                   {
-                     "Name":"minecraft:glowstone"
+                     "x":2,
+                     "y":1,
+                     "z":-1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":1,
+                     "y":1,
+                     "z":-1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
                   }
                ]
             },
             {
-               "x":-1,
-               "y":1,
-               "z":-1,
-               "blocks":[
+               "allOf":[
                   {
-                     "Name":"minecraft:glowstone"
+                     "x":-2,
+                     "y":1,
+                     "z":-1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":-1,
+                     "y":1,
+                     "z":-1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "allOf":[
+                  {
+                     "x":1,
+                     "y":1,
+                     "z":2,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":1,
+                     "y":1,
+                     "z":1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "allOf":[
+                  {
+                     "x":1,
+                     "y":1,
+                     "z":-2,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":1,
+                     "y":1,
+                     "z":-1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "allOf":[
+                  {
+                     "x":-1,
+                     "y":1,
+                     "z":2,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":-1,
+                     "y":1,
+                     "z":1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "allOf":[
+                  {
+                     "x":-1,
+                     "y":1,
+                     "z":-2,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
+                  },
+                  {
+                     "x":-1,
+                     "y":1,
+                     "z":-1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:glowstone"
+                        }
+                     ]
                   }
                ]
             }
@@ -2853,14 +3183,14 @@
                            ]
                         },
                         {
-                           "anyOf":[
+                           "noneOf":[
                               {
                                  "x":0,
                                  "y":0,
                                  "z":1,
                                  "blocks":[
                                     {
-                                       "Name":"minecraft:air"
+                                       "Name":"minecraft:glowstone"
                                     }
                                  ]
                               },
@@ -2870,7 +3200,7 @@
                                  "y":-1,
                                  "blocks":[
                                     {
-                                       "Name":"minecraft:air"
+                                       "Name":"minecraft:glowstone"
                                     }
                                  ]
                               }
@@ -2901,14 +3231,14 @@
                            ]
                         },
                         {
-                           "anyOf":[
+                           "noneOf":[
                               {
                                  "x":0,
                                  "y":0,
                                  "z":1,
                                  "blocks":[
                                     {
-                                       "Name":"minecraft:air"
+                                       "Name":"minecraft:glowstone"
                                     }
                                  ]
                               },
@@ -2918,7 +3248,7 @@
                                  "y":-1,
                                  "blocks":[
                                     {
-                                       "Name":"minecraft:air"
+                                       "Name":"minecraft:glowstone"
                                     }
                                  ]
                               }
@@ -2949,14 +3279,14 @@
                            ]
                         },
                         {
-                           "anyOf":[
+                           "noneOf":[
                               {
                                  "x":1,
                                  "y":0,
                                  "z":0,
                                  "blocks":[
                                     {
-                                       "Name":"minecraft:air"
+                                       "Name":"minecraft:glowstone"
                                     }
                                  ]
                               },
@@ -2966,7 +3296,7 @@
                                  "y":0,
                                  "blocks":[
                                     {
-                                       "Name":"minecraft:air"
+                                       "Name":"minecraft:glowstone"
                                     }
                                  ]
                               }
@@ -2997,14 +3327,14 @@
                            ]
                         },
                         {
-                           "anyOf":[
+                           "noneOf":[
                               {
                                  "x":1,
                                  "y":0,
                                  "z":0,
                                  "blocks":[
                                     {
-                                       "Name":"minecraft:air"
+                                       "Name":"minecraft:glowstone"
                                     }
                                  ]
                               },
@@ -3014,7 +3344,7 @@
                                  "y":0,
                                  "blocks":[
                                     {
-                                       "Name":"minecraft:air"
+                                       "Name":"minecraft:glowstone"
                                     }
                                  ]
                               }
@@ -3039,42 +3369,194 @@
                            ]
                         },
                         {
-                           "x":1,
-                           "y":1,
-                           "z":1,
-                           "blocks":[
+                           "allOf":[
                               {
-                                 "Name":"minecraft:glowstone"
+                                 "x":2,
+                                 "y":1,
+                                 "z":1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "x":1,
+                                 "y":1,
+                                 "z":1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
                               }
                            ]
                         },
                         {
-                           "x":-1,
-                           "y":1,
-                           "z":1,
-                           "blocks":[
+                           "allOf":[
                               {
-                                 "Name":"minecraft:glowstone"
+                                 "x":-2,
+                                 "y":1,
+                                 "z":1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "x":-1,
+                                 "y":1,
+                                 "z":1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
                               }
                            ]
                         },
                         {
-                           "x":1,
-                           "y":1,
-                           "z":-1,
-                           "blocks":[
+                           "allOf":[
                               {
-                                 "Name":"minecraft:glowstone"
+                                 "x":2,
+                                 "y":1,
+                                 "z":-1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "x":1,
+                                 "y":1,
+                                 "z":-1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
                               }
                            ]
                         },
                         {
-                           "x":-1,
-                           "y":1,
-                           "z":-1,
-                           "blocks":[
+                           "allOf":[
                               {
-                                 "Name":"minecraft:glowstone"
+                                 "x":-2,
+                                 "y":1,
+                                 "z":-1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "x":-1,
+                                 "y":1,
+                                 "z":-1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           "allOf":[
+                              {
+                                 "x":1,
+                                 "y":1,
+                                 "z":2,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "x":1,
+                                 "y":1,
+                                 "z":1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           "allOf":[
+                              {
+                                 "x":1,
+                                 "y":1,
+                                 "z":-2,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "x":1,
+                                 "y":1,
+                                 "z":-1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           "allOf":[
+                              {
+                                 "x":-1,
+                                 "y":1,
+                                 "z":2,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "x":-1,
+                                 "y":1,
+                                 "z":1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           "allOf":[
+                              {
+                                 "x":-1,
+                                 "y":1,
+                                 "z":-2,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "x":-1,
+                                 "y":1,
+                                 "z":-1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:glowstone"
+                                    }
+                                 ]
                               }
                            ]
                         }
