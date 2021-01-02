@@ -924,12 +924,6 @@
                         "Properties":{
                            "type":"ardite"
                         }
-                     },
-                     {
-                        "Name":"magicbees:hiveblock",
-                        "Properties":{
-                           "hivetype":"infernal"
-                        }
                      }
                   ]
                },
@@ -954,12 +948,6 @@
                         "Name":"tconstruct:ore",
                         "Properties":{
                            "type":"ardite"
-                        }
-                     },
-                     {
-                        "Name":"magicbees:hiveblock",
-                        "Properties":{
-                           "hivetype":"infernal"
                         }
                      }
                   ]
@@ -986,12 +974,6 @@
                         "Properties":{
                            "type":"ardite"
                         }
-                     },
-                     {
-                        "Name":"magicbees:hiveblock",
-                        "Properties":{
-                           "hivetype":"infernal"
-                        }
                      }
                   ]
                },
@@ -1016,12 +998,6 @@
                         "Name":"tconstruct:ore",
                         "Properties":{
                            "type":"ardite"
-                        }
-                     },
-                     {
-                        "Name":"magicbees:hiveblock",
-                        "Properties":{
-                           "hivetype":"infernal"
                         }
                      }
                   ]
@@ -1048,12 +1024,6 @@
                         "Properties":{
                            "type":"ardite"
                         }
-                     },
-                     {
-                        "Name":"magicbees:hiveblock",
-                        "Properties":{
-                           "hivetype":"infernal"
-                        }
                      }
                   ]
                },
@@ -1078,12 +1048,6 @@
                         "Name":"tconstruct:ore",
                         "Properties":{
                            "type":"ardite"
-                        }
-                     },
-                     {
-                        "Name":"magicbees:hiveblock",
-                        "Properties":{
-                           "hivetype":"infernal"
                         }
                      }
                   ]
