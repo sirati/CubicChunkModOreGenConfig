@@ -1073,8 +1073,8 @@
                }
             ]
          },
-         "spawnSize":8,
-         "spawnTries":4,
+         "spawnSize":6,
+         "spawnTries":40,
          "spawnProbability":1,
          "minHeight":-Infinity,
          "maxHeight":-0.75
@@ -1166,8 +1166,8 @@
                }
             ]
          },
-         "spawnSize":8,
-         "spawnTries":3,
+         "spawnSize":4,
+         "spawnTries": 30,
          "spawnProbability":1,
          "minHeight":-Infinity,
          "maxHeight":-0.75
