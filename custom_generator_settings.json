@@ -339,7 +339,7 @@
                   "Name":"minecraft:netherrack"
                }
             ]
-         },,
+         },
          "spawnSize":1,
          "spawnTries":110,
          "spawnProbability":0.2857142984867096,
