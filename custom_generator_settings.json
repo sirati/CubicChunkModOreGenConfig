@@ -273,7 +273,7 @@
          ],
          "placeBlockWhen":null,
          "generateWhen":null,
-         "spawnSize":1,
+         "spawnSize":3,
          "spawnTries":11,
          "spawnProbability":0.2857142984867096,
          "minHeight":-Infinity,
@@ -286,7 +286,7 @@
          "biomes":null,
          "placeBlockWhen":null,
          "generateWhen":null,
-         "spawnSize":1,
+         "spawnSize":3,
          "spawnTries":1,
          "spawnProbability":0.2857142984867096,
          "minHeight":-Infinity,
@@ -301,10 +301,86 @@
          },
          "biomes":null,
          "placeBlockWhen":null,
-         "generateWhen":null,
-         "spawnSize":1,
-         "spawnTries":11,
-         "spawnProbability":0.2857142984867096,
+         "generateWhen":"allOf":[
+               {
+                  "anyOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"minecraft:air"
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"minecraft:air"
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":1,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"minecraft:air"
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":-1,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"minecraft:air"
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"minecraft:air"
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"minecraft:air"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:stone"
+                     }
+                  ]
+               }
+            ]
+         },
+         "spawnSize":3,
+         "spawnTries":15,
+         "spawnProbability":1,
          "minHeight":-Infinity,
          "maxHeight":-0.25
       },
@@ -313,226 +389,58 @@
             "Name":"minecraft:netherrack"
          },
          "biomes":null,
-         "placeBlockWhen":null,
+         "placeBlockWhen":{"noneOf":[
+      {
+         "x":0,
+         "y":0,
+         "z":0,
+         "blocks":[
+            {
+               "Name":"minecraft:netherrack"
+            },
+            {
+               "Name":"minecraft:air"
+            },
+            {
+               "Name":"tconstruct:ore",
+               "Properties":{
+                  "type":"cobalt"
+               }
+            },
+            {
+               "Name":"tconstruct:ore",
+               "Properties":{
+                  "type":"ardite"
+               }
+            },
+            {
+               "Name":"magicbees:hiveblock",
+               "Properties":{
+                  "hivetype":"infernal"
+               }
+            },
+            {
+               "Name":"minecraft:cobblestone"
+            },
+            {
+               "Name":"minecraft:mossy_cobblestone"
+            },
+            {
+               "Name":"minecraft:chest"
+            },
+            {
+               "Name":"minecraft:spawner"
+            }
+         ]
+      }]},
          "generateWhen":null,
-         "spawnSize":69,
+         "spawnSize":128,
          "spawnTries":1,
          "spawnProbability":0.01,
          "minHeight":-Infinity,
          "maxHeight":-0.75
       },
-      {
-         "blockstate":{
-            "Name":"minecraft:obsidian"
-         },
-         "biomes":null,
-         "placeBlockWhen":{
-            "allOf":[
-               {
-                  "x":1,
-                  "y":0,
-                  "z":0,
-                  "blocks":[
-                     {
-                        "Name":"minecraft:netherrack"
-                     },
-                     {
-                        "Name":"minecraft:air"
-                     },
-                     {
-                        "Name":"tconstruct:ore",
-                        "Properties":{
-                           "type":"cobalt"
-                        }
-                     },
-                     {
-                        "Name":"tconstruct:ore",
-                        "Properties":{
-                           "type":"ardite"
-                        }
-                     },
-                     {
-                        "Name":"magicbees:hiveblock",
-                        "Properties":{
-                           "hivetype":"infernal"
-                        }
-                     }
-                  ]
-               },
-               {
-                  "x":-1,
-                  "y":0,
-                  "z":0,
-                  "blocks":[
-                     {
-                        "Name":"minecraft:netherrack"
-                     },
-                     {
-                        "Name":"minecraft:air"
-                     },
-                     {
-                        "Name":"tconstruct:ore",
-                        "Properties":{
-                           "type":"cobalt"
-                        }
-                     },
-                     {
-                        "Name":"tconstruct:ore",
-                        "Properties":{
-                           "type":"ardite"
-                        }
-                     },
-                     {
-                        "Name":"magicbees:hiveblock",
-                        "Properties":{
-                           "hivetype":"infernal"
-                        }
-                     }
-                  ]
-               },
-               {
-                  "x":0,
-                  "y":1,
-                  "z":0,
-                  "blocks":[
-                     {
-                        "Name":"minecraft:netherrack"
-                     },
-                     {
-                        "Name":"minecraft:air"
-                     },
-                     {
-                        "Name":"tconstruct:ore",
-                        "Properties":{
-                           "type":"cobalt"
-                        }
-                     },
-                     {
-                        "Name":"tconstruct:ore",
-                        "Properties":{
-                           "type":"ardite"
-                        }
-                     },
-                     {
-                        "Name":"magicbees:hiveblock",
-                        "Properties":{
-                           "hivetype":"infernal"
-                        }
-                     }
-                  ]
-               },
-               {
-                  "x":0,
-                  "y":-1,
-                  "z":0,
-                  "blocks":[
-                     {
-                        "Name":"minecraft:netherrack"
-                     },
-                     {
-                        "Name":"minecraft:air"
-                     },
-                     {
-                        "Name":"tconstruct:ore",
-                        "Properties":{
-                           "type":"cobalt"
-                        }
-                     },
-                     {
-                        "Name":"tconstruct:ore",
-                        "Properties":{
-                           "type":"ardite"
-                        }
-                     },
-                     {
-                        "Name":"magicbees:hiveblock",
-                        "Properties":{
-                           "hivetype":"infernal"
-                        }
-                     }
-                  ]
-               },
-               {
-                  "x":0,
-                  "y":0,
-                  "z":1,
-                  "blocks":[
-                     {
-                        "Name":"minecraft:netherrack"
-                     },
-                     {
-                        "Name":"minecraft:air"
-                     },
-                     {
-                        "Name":"tconstruct:ore",
-                        "Properties":{
-                           "type":"cobalt"
-                        }
-                     },
-                     {
-                        "Name":"tconstruct:ore",
-                        "Properties":{
-                           "type":"ardite"
-                        }
-                     },
-                     {
-                        "Name":"magicbees:hiveblock",
-                        "Properties":{
-                           "hivetype":"infernal"
-                        }
-                     }
-                  ]
-               },
-               {
-                  "x":0,
-                  "y":0,
-                  "z":-1,
-                  "blocks":[
-                     {
-                        "Name":"minecraft:netherrack"
-                     },
-                     {
-                        "Name":"minecraft:air"
-                     },
-                     {
-                        "Name":"tconstruct:ore",
-                        "Properties":{
-                           "type":"cobalt"
-                        }
-                     },
-                     {
-                        "Name":"tconstruct:ore",
-                        "Properties":{
-                           "type":"ardite"
-                        }
-                     },
-                     {
-                        "Name":"magicbees:hiveblock",
-                        "Properties":{
-                           "hivetype":"infernal"
-                        }
-                     }
-                  ]
-               }
-            ]
-         },
-         "generateWhen":{
-            "x":0,
-            "y":0,
-            "z":0,
-            "blocks":[
-               {
-                  "Name":"minecraft:netherrack"
-               }
-            ]
-         },
-         "spawnSize":10,
-         "spawnTries":1000,
-         "spawnProbability":1,
-         "minHeight":-Infinity,
-         "maxHeight":-0.75
-      },
-      {
+            {
          "blockstate":{
             "Name":"tconstruct:ore",
             "Properties":{
@@ -727,7 +635,17 @@
                         }
                      }
                   ]
-               }
+               },
+	  {
+         "x":0,
+         "y":0,
+         "z":0,
+         "blocks":[
+            {
+               "Name":"minecraft:netherrack"
+            }
+         ]
+      }
             ]
          },
          "generateWhen":{
@@ -741,10 +659,10 @@
             ]
          },
          "spawnSize":11,
-         "spawnTries":3,
-         "spawnProbability":0.5,
+         "spawnTries":8,
+         "spawnProbability": 1,
          "minHeight":-Infinity,
-         "maxHeight":-0.25
+         "maxHeight":-0.75
       },
       {
          "blockstate":{
@@ -941,7 +859,17 @@
                         }
                      }
                   ]
-               }
+               },
+	  {
+         "x":0,
+         "y":0,
+         "z":0,
+         "blocks":[
+            {
+               "Name":"minecraft:netherrack"
+            }
+         ]
+      }
             ]
          },
          "generateWhen":{
@@ -955,10 +883,10 @@
             ]
          },
          "spawnSize":11,
-         "spawnTries":3,
-         "spawnProbability":0.5,
+         "spawnTries":8,
+         "spawnProbability":1,
          "minHeight":-Infinity,
-         "maxHeight":-0.25
+         "maxHeight":-0.75
       },
       {
          "blockstate":{
@@ -1155,7 +1083,17 @@
                         }
                      }
                   ]
-               }
+               },
+	  {
+         "x":0,
+         "y":0,
+         "z":0,
+         "blocks":[
+            {
+               "Name":"minecraft:netherrack"
+            }
+         ]
+      }
             ]
          },
          "generateWhen":{
@@ -1168,8 +1106,8 @@
                }
             ]
          },
-         "spawnSize":1,
-         "spawnTries":110,
+         "spawnSize":3,
+         "spawnTries":14,
          "spawnProbability":1,
          "minHeight":-Infinity,
          "maxHeight":-0.75
@@ -1206,8 +1144,8 @@
                }
             ]
          },
-         "spawnSize":1,
-         "spawnTries":110,
+         "spawnSize":3,
+         "spawnTries":200,
          "spawnProbability":1,
          "minHeight":-Infinity,
          "maxHeight":-0.75
@@ -1221,9 +1159,85 @@
          },
          "biomes":null,
          "placeBlockWhen":null,
-         "generateWhen":null,
-         "spawnSize":1,
-         "spawnTries":25,
+         "generateWhen":"allOf":[
+               {
+                  "anyOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"minecraft:air"
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"minecraft:air"
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":1,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"minecraft:air"
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":-1,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"minecraft:air"
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"minecraft:air"
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"minecraft:air"
+                           }
+                        ]
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:stone"
+                     }
+                  ]
+               }
+            ]
+         },
+         "spawnSize":3,
+         "spawnTries":10,
          "spawnProbability":0.2857142984867096,
          "minHeight":-Infinity,
          "maxHeight":-0.25
@@ -1235,7 +1249,7 @@
          "biomes":null,
          "placeBlockWhen":null,
          "generateWhen":null,
-         "spawnSize":1,
+         "spawnSize":3,
          "spawnTries":25,
          "spawnProbability":0.2857142984867096,
          "minHeight":-Infinity,
