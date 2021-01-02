@@ -300,8 +300,7 @@
             }
          },
          "biomes":null,
-         "placeBlockWhen":null,
-         "generateWhen":{
+         "placeBlockWhen":{
             "allOf":[
                {
                   "anyOf":[
@@ -379,6 +378,7 @@
                }
             ]
          },
+         "generateWhen":null,
          "spawnSize":3,
          "spawnTries":15,
          "spawnProbability":1,
@@ -1126,8 +1126,7 @@
             }
          },
          "biomes":null,
-         "placeBlockWhen":null,
-         "generateWhen":{
+         "placeBlockWhen":{
             "allOf":[
                {
                   "anyOf":[
@@ -1205,6 +1204,7 @@
                }
             ]
          },
+         "generateWhen":null,
          "spawnSize":3,
          "spawnTries":10,
          "spawnProbability":0.2857142984867096,
