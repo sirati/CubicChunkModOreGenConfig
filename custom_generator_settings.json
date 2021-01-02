@@ -1080,16 +1080,50 @@
          "minHeight":-Infinity,
          "maxHeight":-0.75
       },
-      {
+            {
          "blockstate":{
             "Name":"minecraft:end_stone"
          },
          "biomes":null,
-         "placeBlockWhen":null,
+         "placeBlockWhen":{
+            "noneOf":[
+               {
+                  "x":0,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"oblivion"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:cobblestone"
+                     },
+                     {
+                        "Name":"minecraft:mossy_cobblestone"
+                     },
+                     {
+                        "Name":"minecraft:chest"
+                     },
+                     {
+                        "Name":"minecraft:spawner"
+                     }
+                  ]
+               }
+            ]
+         },
          "generateWhen":null,
-         "spawnSize":69,
+         "spawnSize":128,
          "spawnTries":1,
-         "spawnProbability":0.01,
+         "spawnProbability":0.0025,
          "minHeight":-Infinity,
          "maxHeight":-0.75
       },
@@ -1101,7 +1135,98 @@
             }
          },
          "biomes":null,
-         "placeBlockWhen":null,
+         "placeBlockWhen":{
+            "allOf":[
+               {
+                  "x":1,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     }
+                  ]
+               },
+               {
+                  "x":-1,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":1,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":-1,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "z":1,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "z":-1,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     }
+                  ]
+               }
+            ]
+         },
          "generateWhen":{
             "x":0,
             "y":0,
@@ -1113,7 +1238,7 @@
             ]
          },
          "spawnSize":3,
-         "spawnTries":200,
+         "spawnTries":14,
          "spawnProbability":1,
          "minHeight":-Infinity,
          "maxHeight":-0.75
