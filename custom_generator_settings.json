@@ -1175,8 +1175,8 @@
          "biomes":null,
          "placeBlockWhen":null,
          "generateWhen":null,
-         "spawnSize":9,
-         "spawnTries":2,
+         "spawnSize":13,
+         "spawnTries":5,
          "spawnProbability":0.5,
          "minHeight":-Infinity,
          "maxHeight":-0.5
