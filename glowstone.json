@@ -221,7 +221,8 @@
 
 
 #main crystal
-#either have two glowstone in one direction
+#have glowstone crystals grow in spikes, we do this by extending two glowstone crystals outwards further
+#however to avoid the spikes to fill up everything only allow them if we have a free side
 
 {
    "anyOf":[
@@ -244,6 +245,30 @@
                "blocks":[
                   {
                      "Name":"minecraft:glowstone"
+                  }
+               ]
+            },
+            {
+               "anyOf":[
+                  {
+                     "x":0,
+                     "y":0,
+                     "z":1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:air"
+                        }
+                     ]
+                  },
+                  {
+                     "x":0,
+                     "z":0,
+                     "y":-1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:air"
+                        }
+                     ]
                   }
                ]
             }
@@ -270,6 +295,30 @@
                      "Name":"minecraft:glowstone"
                   }
                ]
+            },
+            {
+               "anyOf":[
+                  {
+                     "x":0,
+                     "y":0,
+                     "z":1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:air"
+                        }
+                     ]
+                  },
+                  {
+                     "x":0,
+                     "z":0,
+                     "y":-1,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:air"
+                        }
+                     ]
+                  }
+               ]
             }
          ]
       },
@@ -292,6 +341,30 @@
                "blocks":[
                   {
                      "Name":"minecraft:glowstone"
+                  }
+               ]
+            },
+            {
+               "anyOf":[
+                  {
+                     "x":1,
+                     "y":0,
+                     "z":0,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:air"
+                        }
+                     ]
+                  },
+                  {
+                     "x":-1,
+                     "z":0,
+                     "y":0,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:air"
+                        }
+                     ]
                   }
                ]
             }
@@ -318,10 +391,33 @@
                      "Name":"minecraft:glowstone"
                   }
                ]
+            },
+            {
+               "anyOf":[
+                  {
+                     "x":1,
+                     "y":0,
+                     "z":0,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:air"
+                        }
+                     ]
+                  },
+                  {
+                     "x":-1,
+                     "z":0,
+                     "y":0,
+                     "blocks":[
+                        {
+                           "Name":"minecraft:air"
+                        }
+                     ]
+                  }
+               ]
             }
          ]
-      },
-      
+      }
    ]
 }
 
@@ -2755,6 +2851,30 @@
                                  "Name":"minecraft:glowstone"
                               }
                            ]
+                        },
+                        {
+                           "anyOf":[
+                              {
+                                 "x":0,
+                                 "y":0,
+                                 "z":1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:air"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "x":0,
+                                 "z":0,
+                                 "y":-1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:air"
+                                    }
+                                 ]
+                              }
+                           ]
                         }
                      ]
                   },
@@ -2777,6 +2897,30 @@
                            "blocks":[
                               {
                                  "Name":"minecraft:glowstone"
+                              }
+                           ]
+                        },
+                        {
+                           "anyOf":[
+                              {
+                                 "x":0,
+                                 "y":0,
+                                 "z":1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:air"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "x":0,
+                                 "z":0,
+                                 "y":-1,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:air"
+                                    }
+                                 ]
                               }
                            ]
                         }
@@ -2803,6 +2947,30 @@
                                  "Name":"minecraft:glowstone"
                               }
                            ]
+                        },
+                        {
+                           "anyOf":[
+                              {
+                                 "x":1,
+                                 "y":0,
+                                 "z":0,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:air"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "x":-1,
+                                 "z":0,
+                                 "y":0,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:air"
+                                    }
+                                 ]
+                              }
+                           ]
                         }
                      ]
                   },
@@ -2825,6 +2993,30 @@
                            "blocks":[
                               {
                                  "Name":"minecraft:glowstone"
+                              }
+                           ]
+                        },
+                        {
+                           "anyOf":[
+                              {
+                                 "x":1,
+                                 "y":0,
+                                 "z":0,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:air"
+                                    }
+                                 ]
+                              },
+                              {
+                                 "x":-1,
+                                 "z":0,
+                                 "y":0,
+                                 "blocks":[
+                                    {
+                                       "Name":"minecraft:air"
+                                    }
+                                 ]
                               }
                            ]
                         }
