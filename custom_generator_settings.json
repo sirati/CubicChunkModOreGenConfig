@@ -431,7 +431,7 @@
                         "Name":"minecraft:chest"
                      },
                      {
-                        "Name":"minecraft:spawner"
+                        "Name":"minecraft:mod_spawner"
                      },
                      {
                         "Name":"minecraft:glowstone"
