@@ -310,6 +310,19 @@
       },
       {
          "blockstate":{
+            "Name":"minecraft:netherrack"
+         },
+         "biomes":null,
+         "placeBlockWhen":null,
+         "generateWhen":null,
+         "spawnSize":69,
+         "spawnTries":1,
+         "spawnProbability":0.1,
+         "minHeight":-Infinity,
+         "maxHeight":-0.75
+      },
+      {
+         "blockstate":{
             "Name":"magicbees:hiveblock",
             "Properties":{
                "hivetype":"infernal"
@@ -317,12 +330,34 @@
          },
          "biomes":null,
          "placeBlockWhen":null,
-         "generateWhen":null,
+         "generateWhen":{
+            "x":0,
+            "y":0,
+            "z":0,
+            "blocks":[
+               {
+                  "Name":"minecraft:netherrack"
+               }
+            ]
+         },,
          "spawnSize":1,
-         "spawnTries":11,
+         "spawnTries":110,
          "spawnProbability":0.2857142984867096,
          "minHeight":-Infinity,
          "maxHeight":-0.25
+      },
+      {
+         "blockstate":{
+            "Name":"minecraft:end_stone"
+         },
+         "biomes":null,
+         "placeBlockWhen":null,
+         "generateWhen":null,
+         "spawnSize":69,
+         "spawnTries":1,
+         "spawnProbability":0.1,
+         "minHeight":-Infinity,
+         "maxHeight":-0.75
       },
       {
          "blockstate":{
@@ -333,9 +368,18 @@
          },
          "biomes":null,
          "placeBlockWhen":null,
-         "generateWhen":null,
+         "generateWhen":{
+            "x":0,
+            "y":0,
+            "z":0,
+            "blocks":[
+               {
+                  "Name":"minecraft:end_stone"
+               }
+            ]
+         },
          "spawnSize":1,
-         "spawnTries":11,
+         "spawnTries":110,
          "spawnProbability":0.2857142984867096,
          "minHeight":-Infinity,
          "maxHeight":-0.25
@@ -1040,19 +1084,6 @@
          "spawnProbability":1,
          "minHeight":-Infinity,
          "maxHeight":Infinity
-      },
-      {
-         "blockstate":{
-            "Name":"minecraft:end_stone"
-         },
-         "biomes":null,
-         "placeBlockWhen":null,
-         "generateWhen":null,
-         "spawnSize":8,
-         "spawnTries":3,
-         "spawnProbability":1,
-         "minHeight":-Infinity,
-         "maxHeight":-0.75
       },
       {
          "blockstate":{
