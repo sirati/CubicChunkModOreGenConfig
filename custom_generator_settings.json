@@ -281,6 +281,19 @@
       },
       {
          "blockstate":{
+            "Name":"minecraft:emerald_ore"
+         },
+         "biomes":null,
+         "placeBlockWhen":null,
+         "generateWhen":null,
+         "spawnSize":1,
+         "spawnTries":1,
+         "spawnProbability":0.2857142984867096,
+         "minHeight":"-Infinity",
+         "maxHeight":-2.0
+      },
+      {
+         "blockstate":{
             "Name":"morebees:hive",
             "Properties":{
                "hive":"rock"
@@ -1509,7 +1522,16 @@
          },
          "biomes":null,
          "placeBlockWhen":null,
-         "generateWhen":null,
+         "generateWhen":{
+            "x":0,
+            "y":0,
+            "z":0,
+            "blocks":[
+               {
+                  "Name":"appliedenergistics2:quartz_ore"
+               }
+            ]
+         },
          "spawnSize":8,
          "spawnTries":3,
          "spawnProbability":1,
@@ -1525,7 +1547,16 @@
          },
          "biomes":null,
          "placeBlockWhen":null,
-         "generateWhen":null,
+         "generateWhen":{
+            "x":0,
+            "y":0,
+            "z":0,
+            "blocks":[
+               {
+                  "Name":"minecraft:redstone_ore"
+               }
+            ]
+         },
          "spawnSize":8,
          "spawnTries":4,
          "spawnProbability":1,
