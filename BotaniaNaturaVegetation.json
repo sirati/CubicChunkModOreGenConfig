@@ -1,0 +1,1001 @@
+#Botania flowers
+{
+   "blockstate":{
+      "Name":"$1",
+      "Properties":{
+         "$2":"$3",
+         "$4":"$5",
+      }
+   },
+   "biomes":null,
+   "placeBlockWhen":{
+      "allof": [
+        {
+          "x":0,
+          "y":2,
+          "z":0,
+          "blocks":[
+             {
+                "Name":"minecraft:air"
+             }
+          ]
+        },
+        {
+          "x":0,
+          "y":1,
+          "z":0,
+          "blocks":[
+             {
+                "Name":"minecraft:air"
+             }
+          ]
+        },
+        {
+          "x":0,
+          "y":0,
+          "z":0,
+          "blocks":[
+             {
+                "Name":"minecraft:air"
+             }
+          ]
+        },
+        {
+          "x":0,
+          "y":-1,
+          "z":0,
+          "blocks":[
+             {
+                "Name":"minecraft:grass"
+             }
+          ]
+        }
+      ]
+      
+   },
+   "generateWhen":{ 
+          "anyof": [
+            {
+              "x":0,
+              "y":0,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:grass"
+                 }
+              ]
+            },
+            {
+              "x":0,
+              "y":0,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:dirt"
+                 }
+              ]
+            },
+            {
+              "x":0,
+              "y":0,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:air"
+                 }
+              ]
+            }
+          ]
+        },
+   "spawnSize":14,
+   "spawnTries":5,
+   "spawnProbability":0.2,
+   "minHeight":-Infinity,
+   "maxHeight":Infinity
+},
+      
+##minify
+# regex [ \n\r]
+
+# escape regex
+#[\{\}\[\]\:]
+#\\$0
+      
+##minified and escaped json
+\{"blockstate"\:\{"Name"\:"$1","Properties"\:\{"$2"\:"$3","$4"\:"$5",\}\},"biomes"\:null,"placeBlockWhen"\:\{"allof"\:\[\{"x"\:0,"y"\:2,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\},\{"x"\:0,"y"\:1,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\},\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\},\{"x"\:0,"y"\:-1,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:grass"\}\]\}\]\},"generateWhen"\:\{"anyof"\:\[\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:grass"\}\]\},\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:dirt"\}\]\},\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\}\]\},"spawnSize"\:14,"spawnTries"\:5,"spawnProbability"\:0.2,"minHeight"\:-Infinity,"maxHeight"\:Infinity\},
+
+#regex
+#([\w\:]+)\t\d+\t\d+\t[\w ]+\t\d+\t(\w+)\t(\w+)\t(\w+)\t(\w+)
+
+#data
+botania:flower	1215	14	Mystical Red Flower	1	color	red	type	poppy
+botania:flower	1215	4	Mystical Yellow Flower	1	color	yellow	type	poppy
+botania:flower	1215	7	Mystical Gray Flower	1	color	gray	type	poppy
+botania:flower	1215	15	Mystical Black Flower	1	color	black	type	poppy
+botania:flower	1215	11	Mystical Blue Flower	1	color	blue	type	poppy
+botania:flower	1215	2	Mystical Magenta Flower	1	color	magenta	type	poppy
+botania:flower	1215	12	Mystical Brown Flower	1	color	brown	type	poppy
+botania:flower	1215	0	Mystical White Flower	1	color	white	type	poppy
+botania:flower	1215	8	Mystical Light Gray Flower	1	color	light_gray	type	poppy
+botania:flower	1215	10	Mystical Purple Flower	1	color	purple	type	poppy
+botania:flower	1215	9	Mystical Cyan Flower	1	color	cyan	type	poppy
+botania:flower	1215	1	Mystical Orange Flower	1	color	orange	type	poppy
+botania:flower	1215	5	Mystical Lime Flower	1	color	lime	type	poppy
+botania:flower	1215	6	Mystical Pink Flower	1	color	pink	type	poppy
+botania:flower	1215	3	Mystical Light Blue Flower	1	color	light_blue	type	poppy
+botania:flower	1215	13	Mystical Green Flower	1	color	green	type	poppy
+
+#generated json
+
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"red","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"yellow","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"gray","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"black","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"blue","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"magenta","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"brown","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"white","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"light_gray","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"purple","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"cyan","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"orange","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"lime","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"pink","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"light_blue","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+{"blockstate":{"Name":"botania:flower","Properties":{"color":"green","type":"poppy",}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:grass"}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:grass"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":Infinity},
+
+#botania mushrooms
+{
+   "blockstate":{
+      "Name":"$1",
+      "Properties":{
+         "$2":"$3"
+      }
+   },
+   "biomes":null,
+   "placeBlockWhen":{
+      "allof": [
+        {
+          "x":0,
+          "y":2,
+          "z":0,
+          "blocks":[
+             {
+                "Name":"minecraft:air"
+             }
+          ]
+        },
+        {
+          "x":0,
+          "y":1,
+          "z":0,
+          "blocks":[
+             {
+                "Name":"minecraft:air"
+             }
+          ]
+        },
+        {
+          "x":0,
+          "y":0,
+          "z":0,
+          "blocks":[
+             {
+                "Name":"minecraft:air"
+             }
+          ]
+        },
+        { 
+          "anyof": [
+            {
+              "x":0,
+              "y":-1,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:stone"
+                 }
+              ]
+            },
+            {
+              "x":0,
+              "y":-1,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:gravel"
+                 }
+              ]
+            },
+            {
+              "x":0,
+              "y":-1,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:dirt"
+                 }
+              ]
+            }
+          ]
+        }
+      ]
+      
+   },
+   "generateWhen":{ 
+          "anyof": [
+            {
+              "x":0,
+              "y":0,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:stone"
+                 }
+              ]
+            },
+            {
+              "x":0,
+              "y":0,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:dirt"
+                 }
+              ]
+            },
+            {
+              "x":0,
+              "y":-1,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:gravel"
+                 }
+              ]
+            },
+            {
+              "x":0,
+              "y":0,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:air"
+                 }
+              ]
+            }
+          ]
+        },
+   "spawnSize":14,
+   "spawnTries":5,
+   "spawnProbability":0.2,
+   "minHeight":-Infinity,
+   "maxHeight":0.7
+},
+
+##minified escaped
+\{"blockstate"\:\{"Name"\:"$1","Properties"\:\{"$2"\:"$3"\}\},"biomes"\:null,"placeBlockWhen"\:\{"allof"\:\[\{"x"\:0,"y"\:2,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\},\{"x"\:0,"y"\:1,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\},\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\},\{"anyof"\:\[\{"x"\:0,"y"\:-1,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:stone"\}\]\},\{"x"\:0,"y"\:-1,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:gravel"\}\]\},\{"x"\:0,"y"\:-1,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:dirt"\}\]\}\]\}\]\},"generateWhen"\:\{"anyof"\:\[\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:stone"\}\]\},\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:dirt"\}\]\},\{"x"\:0,"y"\:-1,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:gravel"\}\]\},\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\}\]\},"spawnSize"\:14,"spawnTries"\:5,"spawnProbability"\:0.2,"minHeight"\:-Infinity,"maxHeight"\:0.7\},
+
+#regex
+#([\w\:]+)\t\d+\t\d+\t[\w ]+\t\d+\t(\w+)\t(\w+)
+
+
+##data
+botania:mushroom	1267	1	Orange Shimmering Mushroom	1	color	orange
+botania:mushroom	1267	11	Blue Shimmering Mushroom	1	color	blue
+botania:mushroom	1267	10	Purple Shimmering Mushroom	1	color	purple
+botania:mushroom	1267	0	White Shimmering Mushroom	1	color	white
+botania:mushroom	1267	4	Yellow Shimmering Mushroom	1	color	yellow
+botania:mushroom	1267	5	Lime Shimmering Mushroom	1	color	lime
+botania:mushroom	1267	14	Red Shimmering Mushroom	1	color	red
+botania:mushroom	1267	15	Black Shimmering Mushroom	1	color	black
+botania:mushroom	1267	3	Light Blue Shimmering Mushroom	1	color	light_blue
+botania:mushroom	1267	13	Green Shimmering Mushroom	1	color	green
+botania:mushroom	1267	6	Pink Shimmering Mushroom	1	color	pink
+botania:mushroom	1267	9	Cyan Shimmering Mushroom	1	color	cyan
+botania:mushroom	1267	8	Light Gray Shimmering Mushroom	1	color	light_gray
+botania:mushroom	1267	12	Brown Shimmering Mushroom	1	color	brown
+botania:mushroom	1267	2	Magenta Shimmering Mushroom	1	color	magenta
+botania:mushroom	1267	7	Gray Shimmering Mushroom	1	color	gray
+
+
+##generated json
+
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"orange"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"blue"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"purple"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"white"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"yellow"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"lime"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"red"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"black"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"light_blue"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"green"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"pink"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"cyan"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"light_gray"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"brown"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"magenta"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"botania:mushroom","Properties":{"color":"gray"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:dirt"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:stone"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:dirt"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:gravel"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+
+#soulsand
+minecraft:soul_sand	88	0	Soul Sand	1		
+
+{
+   "blockstate":{
+      "Name":"minecraft:soul_sand"
+   },
+   "biomes":null,
+   "placeBlockWhen":{
+      "allof": [
+        { 
+          "anyof": [
+            {
+              "x":0,
+              "y":1,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:air"
+                 }
+              ]
+            },
+            {"allOf": [
+              {
+                "x":0,
+                "y":2,
+                "z":0,
+                "blocks":[
+                   {
+                      "Name":"minecraft:air"
+                   }
+                ]
+              },
+              {
+                "x":0,
+                "y":1,
+                "z":0,
+                "blocks":[
+                   {
+                      "Name":"minecraft:soul_sand"
+                   }
+                ]
+              }
+            ]}
+            
+          ]
+        },
+        {
+          "x":0,
+          "y":0,
+          "z":0,
+          "blocks":[
+             {
+                "Name":"minecraft:netherrack"
+             }
+          ]
+        },
+        { 
+          "anyof": [
+            {
+              "x":0,
+              "y":-1,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:netherrack"
+                 }
+              ]
+            },
+            {
+              "x":0,
+              "y":-1,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:soul_sand"
+                 }
+              ]
+            }
+          ]
+        },
+        { 
+          "anyof": [
+            {
+              "x":0,
+              "y":-2,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:netherrack"
+                 }
+              ]
+            },
+            {
+              "x":0,
+              "y":-2,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:soul_sand"
+                 }
+              ]
+            }
+          ]
+        }
+      ]
+      
+   },
+   "generateWhen":{
+              "x":0,
+              "y":0,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:netherrack"
+                 }
+              ]
+            },
+   "spawnSize":30,
+   "spawnTries":5,
+   "spawnProbability":1,
+   "minHeight":-Infinity,
+   "maxHeight":0.7
+},
+
+#netherquartz
+{
+         "blockstate":{
+            "Name":"minecraft:quartz_ore"
+         },
+         "biomes":null,
+         "placeBlockWhen":{
+            "allOf":[
+               {
+                  "x":1,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"cobalt"
+                        }
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     }
+                  ]
+               },
+               {
+                  "x":-1,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"cobalt"
+                        }
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":1,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"cobalt"
+                        }
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":-1,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"cobalt"
+                        }
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "z":1,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"cobalt"
+                        }
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "z":-1,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"cobalt"
+                        }
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     }
+                  ]
+               }
+            ]
+         },
+         "generateWhen":{
+            "x":0,
+            "y":0,
+            "z":0,
+            "blocks":[
+               {
+                  "Name":"minecraft:netherrack"
+               }
+            ]
+         },
+         "spawnSize":17,
+         "spawnTries":7,
+         "spawnProbability":1,
+         "minHeight":-Infinity,
+         "maxHeight":-0.75
+      },
+
+#nature mushroom (nether)
+{
+   "blockstate":{
+      "Name":"$1",
+      "Properties":{
+         "$2":"$3"
+      }
+   },
+   "biomes":null,
+   "placeBlockWhen":{
+      "allof": [
+        {
+          "x":0,
+          "y":1,
+          "z":0,
+          "blocks":[
+             {
+                "Name":"minecraft:air"
+             }
+          ]
+        },
+        {
+          "x":0,
+          "y":0,
+          "z":0,
+          "blocks":[
+             {
+                "Name":"minecraft:air"
+             }
+          ]
+        },
+        { 
+          "anyof": [
+            {
+              "x":0,
+              "y":-1,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:netherrack"
+                 }
+              ]
+            },
+            {
+              "x":0,
+              "y":-1,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:soul_sand"
+                 }
+              ]
+            }
+          ]
+        }
+      ]
+   },
+   "generateWhen":{ 
+          "anyof": [
+            {
+              "x":0,
+              "y":0,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:netherrack"
+                 }
+              ]
+            },
+            {
+              "x":0,
+              "y":0,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:soul_sand"
+                 }
+              ]
+            },
+            {
+              "x":0,
+              "y":0,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:air"
+                 }
+              ]
+            }
+          ]
+        },
+   "spawnSize":14,
+   "spawnTries":5,
+   "spawnProbability":0.2,
+   "minHeight":-Infinity,
+   "maxHeight":0.7
+},
+
+#minified escaped
+\{"blockstate"\:\{"Name"\:"$1","Properties"\:\{"$2"\:"$3"\}\},"biomes"\:null,"placeBlockWhen"\:\{"allof"\:\[\{"x"\:0,"y"\:1,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\},\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\},\{"anyof"\:\[\{"x"\:0,"y"\:-1,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:netherrack"\}\]\},\{"x"\:0,"y"\:-1,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:soul_sand"\}\]\}\]\}\]\},"generateWhen"\:\{"anyof"\:\[\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:netherrack"\}\]\},\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:soul_sand"\}\]\},\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\}\]\},"spawnSize"\:14,"spawnTries"\:5,"spawnProbability"\:0.2,"minHeight"\:-Infinity,"maxHeight"\:0.7\},
+
+#regex (as botania mushrooms)
+#([\w\:]+)\t\d+\t\d+\t[\w ]+\t\d+\t(\w+)\t(\w+)
+
+#data
+natura:nether_glowshroom	1368	0	Green Glowshroom	1	type	green
+natura:nether_glowshroom	1368	2	Purple Glowshroom	1	type	purple
+natura:nether_glowshroom	1368	1	Blue Glowshroom	1	type	blue
+
+
+#generated json
+{"blockstate":{"Name":"natura:nether_glowshroom","Properties":{"type":"green"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:netherrack"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:soul_sand"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:netherrack"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:soul_sand"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"natura:nether_glowshroom","Properties":{"type":"purple"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:netherrack"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:soul_sand"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:netherrack"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:soul_sand"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"natura:nether_glowshroom","Properties":{"type":"blue"}},"biomes":null,"placeBlockWhen":{"allof":[{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:netherrack"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:soul_sand"}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:netherrack"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:soul_sand"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+
+#nature berrybushes
+{
+   "blockstate":{
+      "Name":"$1",
+      "Properties":{
+         "$2":$3
+      }
+   },
+   "biomes":null,
+   "placeBlockWhen":{
+      "allof": [
+        { 
+          "anyof": [
+            {
+              "x":0,
+              "y":1,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:air"
+                 }
+              ]
+            },
+            {"allOf": [
+              {
+                "x":0,
+                "y":2,
+                "z":0,
+                "blocks":[
+                   {
+                      "Name":"minecraft:air"
+                   }
+                ]
+              },
+              {
+                "x":0,
+                "y":1,
+                "z":0,
+                "blocks":[
+                   {
+                      "Name":"$1",
+                      "Properties":{
+                         "$2":$3
+                      }
+                   }
+                ]
+              }
+            ]}
+            
+          ]
+        },
+        {
+          "x":0,
+          "y":0,
+          "z":0,
+          "blocks":[
+             {
+                "Name":"minecraft:air"
+             }
+          ]
+        },
+        { 
+          "anyof": [
+            { 
+              "anyof": [
+                {
+                  "x":0,
+                  "y"-1,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     }
+                  ]
+                },
+                {
+                  "x":0,
+                  "y":-1,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:soul_sand"
+                     }
+                  ]
+                }
+              ]
+            },
+            {"allOf": [
+              { 
+                "anyof": [
+                  {
+                    "x":0,
+                    "y":-2,
+                    "z":0,
+                    "blocks":[
+                       {
+                          "Name":"minecraft:netherrack"
+                       }
+                    ]
+                  },
+                  {
+                    "x":0,
+                    "y":-2,
+                    "z":0,
+                    "blocks":[
+                       {
+                          "Name":"minecraft:soul_sand"
+                       }
+                    ]
+                  }
+                ]
+              },
+              {
+                "x":0,
+                "y":-1,
+                "z":0,
+                "blocks":[
+                   {
+                      "Name":"$1",
+                      "Properties":{
+                         "$2":$3
+                      }
+                   }
+                ]
+              }
+            ]}
+          ]
+        }
+      ]
+      
+   },
+   "generateWhen":{ 
+          "anyof": [
+            {
+              "x":0,
+              "y":0,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:netherrack"
+                 }
+              ]
+            },
+            {
+              "x":0,
+              "y":0,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:soul_sand"
+                 }
+              ]
+            },
+            {
+              "x":0,
+              "y":0,
+              "z":0,
+              "blocks":[
+                 {
+                    "Name":"minecraft:air"
+                 }
+              ]
+            }
+          ]
+        },
+   "spawnSize":14,
+   "spawnTries":5,
+   "spawnProbability":0.2,
+   "minHeight":-Infinity,
+   "maxHeight":0.7
+},
+
+#minified escaped
+\{"blockstate"\:\{"Name"\:"$1","Properties"\:\{"$2"\:$3\}\},"biomes"\:null,"placeBlockWhen"\:\{"allof"\:\[\{"anyof"\:\[\{"x"\:0,"y"\:1,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\},\{"allOf"\:\[\{"x"\:0,"y"\:2,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\},\{"x"\:0,"y"\:1,"z"\:0,"blocks"\:\[\{"Name"\:"$1","Properties"\:\{"$2"\:$3\}\}\]\}\]\}\]\},\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\},\{"anyof"\:\[\{"anyof"\:\[\{"x"\:0,"y"-1,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:netherrack"\}\]\},\{"x"\:0,"y"\:-1,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:soul_sand"\}\]\}\]\},\{"allOf"\:\[\{"anyof"\:\[\{"x"\:0,"y"\:-2,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:netherrack"\}\]\},\{"x"\:0,"y"\:-2,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:soul_sand"\}\]\}\]\},\{"x"\:0,"y"\:-1,"z"\:0,"blocks"\:\[\{"Name"\:"$1","Properties"\:\{"$2"\:$3\}\}\]\}\]\}\]\}\]\},"generateWhen"\:\{"anyof"\:\[\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:netherrack"\}\]\},\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:soul_sand"\}\]\},\{"x"\:0,"y"\:0,"z"\:0,"blocks"\:\[\{"Name"\:"minecraft\:air"\}\]\}\]\},"spawnSize"\:14,"spawnTries"\:5,"spawnProbability"\:0.2,"minHeight"\:-Infinity,"maxHeight"\:0.7\},
+
+#regex
+#([\w\:]+)\t\d+\t\d+\t[\w ]+\t\d+\t(\w+)\t(\d+)
+
+#data
+natura:nether_berrybush_blightberry	1363	2	Blightberry Bush	1	age	2
+natura:nether_berrybush_skyberry	1365	2	Skyberry Bush	1	age	2
+
+#generated json
+{"blockstate":{"Name":"natura:nether_berrybush_blightberry","Properties":{"age":2}},"biomes":null,"placeBlockWhen":{"allof":[{"anyof":[{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"allOf":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"natura:nether_berrybush_blightberry","Properties":{"age":2}}]}]}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"anyof":[{"x":0,"y"-1,"z":0,"blocks":[{"Name":"minecraft:netherrack"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:soul_sand"}]}]},{"allOf":[{"anyof":[{"x":0,"y":-2,"z":0,"blocks":[{"Name":"minecraft:netherrack"}]},{"x":0,"y":-2,"z":0,"blocks":[{"Name":"minecraft:soul_sand"}]}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"natura:nether_berrybush_blightberry","Properties":{"age":2}}]}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:netherrack"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:soul_sand"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+{"blockstate":{"Name":"natura:nether_berrybush_skyberry","Properties":{"age":2}},"biomes":null,"placeBlockWhen":{"allof":[{"anyof":[{"x":0,"y":1,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"allOf":[{"x":0,"y":2,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"x":0,"y":1,"z":0,"blocks":[{"Name":"natura:nether_berrybush_skyberry","Properties":{"age":2}}]}]}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]},{"anyof":[{"anyof":[{"x":0,"y"-1,"z":0,"blocks":[{"Name":"minecraft:netherrack"}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"minecraft:soul_sand"}]}]},{"allOf":[{"anyof":[{"x":0,"y":-2,"z":0,"blocks":[{"Name":"minecraft:netherrack"}]},{"x":0,"y":-2,"z":0,"blocks":[{"Name":"minecraft:soul_sand"}]}]},{"x":0,"y":-1,"z":0,"blocks":[{"Name":"natura:nether_berrybush_skyberry","Properties":{"age":2}}]}]}]}]},"generateWhen":{"anyof":[{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:netherrack"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:soul_sand"}]},{"x":0,"y":0,"z":0,"blocks":[{"Name":"minecraft:air"}]}]},"spawnSize":14,"spawnTries":5,"spawnProbability":0.2,"minHeight":-Infinity,"maxHeight":0.7},
+
+
+
