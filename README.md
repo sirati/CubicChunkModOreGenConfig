@@ -8,3 +8,5 @@ This generated ores for the following mods:
  - Applied Energistics
  - Thermal Expansion
  - Tinkers Constructs
+ - Natura
+ - Botania
