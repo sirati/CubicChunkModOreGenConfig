@@ -1555,7 +1555,7 @@
                }
             ]
          },
-         "spawnSize":30,
+         "spawnSize":40,
          "spawnTries":5,
          "spawnProbability":1,
          "minHeight":-Infinity,
@@ -5422,8 +5422,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -5515,8 +5515,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -5608,8 +5608,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -5701,8 +5701,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -5794,8 +5794,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -5887,8 +5887,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -5980,8 +5980,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -6073,8 +6073,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -6166,8 +6166,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -6259,8 +6259,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -6352,8 +6352,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -6445,8 +6445,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -6538,8 +6538,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -6631,8 +6631,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -6724,8 +6724,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -6817,8 +6817,8 @@
             ]
          },
          "spawnSize":14,
-         "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnTries":1,
+         "spawnProbability":0.05,
          "minHeight":-Infinity,
          "maxHeight":Infinity
       },
@@ -6895,6 +6895,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"orange"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"orange"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"orange"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"orange"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -6942,8 +6998,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -7021,6 +7077,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"blue"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"blue"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"blue"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"blue"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -7068,8 +7180,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -7147,6 +7259,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"purple"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"purple"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"purple"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"purple"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -7194,8 +7362,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -7273,6 +7441,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"white"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"white"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"white"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"white"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -7320,8 +7544,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -7399,6 +7623,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"yellow"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"yellow"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"yellow"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"yellow"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -7446,8 +7726,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -7525,6 +7805,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"lime"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"lime"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"lime"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"lime"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -7572,8 +7908,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -7651,6 +7987,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"red"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"red"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"red"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"red"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -7698,8 +8090,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -7777,6 +8169,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"black"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"black"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"black"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"black"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -7824,8 +8272,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -7903,6 +8351,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"light_blue"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"light_blue"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"light_blue"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"light_blue"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -7950,8 +8454,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -8029,6 +8533,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"green"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"green"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"green"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"green"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -8076,8 +8636,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -8155,6 +8715,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"pink"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"pink"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"pink"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"pink"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -8202,8 +8818,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -8281,6 +8897,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"cyan"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"cyan"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"cyan"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"cyan"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -8328,8 +9000,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -8407,6 +9079,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"light_gray"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"light_gray"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"light_gray"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"light_gray"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -8454,8 +9182,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -8533,6 +9261,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"brown"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"brown"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"brown"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"brown"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -8580,8 +9364,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -8659,6 +9443,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"magenta"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"magenta"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"magenta"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"magenta"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -8706,8 +9546,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -8785,6 +9625,62 @@
                         ]
                      }
                   ]
+               },
+               {
+                  "allOf":[
+                     {
+                        "x":1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"gray"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":-1,
+                        "y":0,
+                        "z":0,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"gray"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"gray"
+                              }
+                           }
+                        ]
+                     },
+                     {
+                        "x":0,
+                        "y":0,
+                        "z":-1,
+                        "blocks":[
+                           {
+                              "Name":"botania:mushroom",
+                              "Properties":{
+                                 "color":"gray"
+                              }
+                           }
+                        ]
+                     }
+                  ]
                }
             ]
          },
@@ -8832,8 +9728,8 @@
                }
             ]
          },
-         "spawnSize":14,
-         "spawnTries":5,
+         "spawnSize":10,
+         "spawnTries":1,
          "spawnProbability":0.2,
          "minHeight":-Infinity,
          "maxHeight":0.7
@@ -8930,7 +9826,7 @@
          },
          "spawnSize":14,
          "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnProbability":0.4,
          "minHeight":-Infinity,
          "maxHeight":0.7
       },
@@ -9026,7 +9922,7 @@
          },
          "spawnSize":14,
          "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnProbability":0.4,
          "minHeight":-Infinity,
          "maxHeight":0.7
       },
@@ -9122,7 +10018,7 @@
          },
          "spawnSize":14,
          "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnProbability":0.4,
          "minHeight":-Infinity,
          "maxHeight":0.7
       },
@@ -9294,7 +10190,7 @@
          },
          "spawnSize":14,
          "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnProbability":0.4,
          "minHeight":-Infinity,
          "maxHeight":0.7
       },
@@ -9466,7 +10362,7 @@
          },
          "spawnSize":14,
          "spawnTries":5,
-         "spawnProbability":0.2,
+         "spawnProbability":0.4,
          "minHeight":-Infinity,
          "maxHeight":0.7
       },
