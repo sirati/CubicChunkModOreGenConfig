@@ -1187,7 +1187,17 @@
                         "Name":"minecraft:chest"
                      },
                      {
-                        "Name":"minecraft:spawner"
+                        "Name":"minecraft:mob_spawner"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     }
                      }
                   ]
                }
