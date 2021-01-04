@@ -486,16 +486,19 @@
                         }
                      },
                      {
-                        "Name":"minecraft:cobblestone"
+                        "Name":"minecraft:glowstone"
                      },
                      {
-                        "Name":"minecraft:mossy_cobblestone"
+                        "Name":"minecraft:lava"
                      },
                      {
-                        "Name":"minecraft:chest"
+                        "Name":"minecraft:flowing_lava"
                      },
                      {
-                        "Name":"minecraft:mob_spawner"
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
                      },
                      {
                         "Name":"minecraft:glowstone"
@@ -511,6 +514,24 @@
                      },
                      {
                         "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:cobblestone"
+                     },
+                     {
+                        "Name":"minecraft:mossy_cobblestone"
+                     },
+                     {
+                        "Name":"minecraft:chest"
+                     },
+                     {
+                        "Name":"minecraft:mob_spawner"
                      }
                   ]
                }
@@ -576,6 +597,27 @@
                      },
                      {
                         "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
                      }
                   ]
                },
@@ -622,6 +664,27 @@
                      },
                      {
                         "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
                      }
                   ]
                },
@@ -652,6 +715,42 @@
                         "Name":"magicbees:hiveblock",
                         "Properties":{
                            "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
                         }
                      }
                   ]
@@ -684,6 +783,42 @@
                         "Properties":{
                            "hivetype":"infernal"
                         }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
                      }
                   ]
                },
@@ -715,6 +850,42 @@
                         "Properties":{
                            "hivetype":"infernal"
                         }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
                      }
                   ]
                },
@@ -745,6 +916,42 @@
                         "Name":"magicbees:hiveblock",
                         "Properties":{
                            "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
                         }
                      }
                   ]
@@ -778,6 +985,445 @@
          "maxHeight":-0.75
       },
       {
+         "blockstate":{
+            "Name":"thermalfoundation:ore_fluid",
+            "Properties":{
+               "type":"glowstone"
+            }
+         },
+         "biomes":null,
+         "placeBlockWhen":{
+            "allOf":[
+               {
+                  "x":1,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"cobalt"
+                        }
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
+                     }
+                  ]
+               },
+               {
+                  "x":-1,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"cobalt"
+                        }
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":1,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"cobalt"
+                        }
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":-1,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"cobalt"
+                        }
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "z":1,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"cobalt"
+                        }
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "z":-1,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"cobalt"
+                        }
+                     },
+                     {
+                        "Name":"tconstruct:ore",
+                        "Properties":{
+                           "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:netherrack"
+                     }
+                  ]
+               }
+            ]
+         },
+         "generateWhen":{
+            "x":0,
+            "y":0,
+            "z":0,
+            "blocks":[
+               {
+                  "Name":"minecraft:netherrack"
+               }
+            ]
+         },
+         "spawnSize":17,
+         "spawnTries":7,
+         "spawnProbability":1,
+         "minHeight":-Infinity,
+         "maxHeight":-0.75
+      }{
          "blockstate":{
             "Name":"tconstruct:ore",
             "Properties":{
@@ -815,6 +1461,42 @@
                         "Properties":{
                            "hivetype":"infernal"
                         }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
                      }
                   ]
                },
@@ -845,6 +1527,42 @@
                         "Name":"magicbees:hiveblock",
                         "Properties":{
                            "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
                         }
                      }
                   ]
@@ -877,6 +1595,42 @@
                         "Properties":{
                            "hivetype":"infernal"
                         }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
                      }
                   ]
                },
@@ -907,6 +1661,42 @@
                         "Name":"magicbees:hiveblock",
                         "Properties":{
                            "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
                         }
                      }
                   ]
@@ -939,6 +1729,42 @@
                         "Properties":{
                            "hivetype":"infernal"
                         }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
                      }
                   ]
                },
@@ -969,6 +1795,42 @@
                         "Name":"magicbees:hiveblock",
                         "Properties":{
                            "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
                         }
                      }
                   ]
@@ -1051,6 +1913,27 @@
                      },
                      {
                         "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
                      }
                   ]
                },
@@ -1097,6 +1980,27 @@
                      },
                      {
                         "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
                      }
                   ]
                },
@@ -1127,6 +2031,42 @@
                         "Name":"magicbees:hiveblock",
                         "Properties":{
                            "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
                         }
                      }
                   ]
@@ -1159,6 +2099,42 @@
                         "Properties":{
                            "hivetype":"infernal"
                         }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
                      }
                   ]
                },
@@ -1190,6 +2166,42 @@
                         "Properties":{
                            "hivetype":"infernal"
                         }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
                      }
                   ]
                },
@@ -1220,6 +2232,42 @@
                         "Name":"magicbees:hiveblock",
                         "Properties":{
                            "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
                         }
                      }
                   ]
@@ -1284,6 +2332,48 @@
                         "Properties":{
                            "type":"ardite"
                         }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
                      }
                   ]
                },
@@ -1308,6 +2398,48 @@
                         "Name":"tconstruct:ore",
                         "Properties":{
                            "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
                         }
                      }
                   ]
@@ -1334,6 +2466,48 @@
                         "Properties":{
                            "type":"ardite"
                         }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
                      }
                   ]
                },
@@ -1358,6 +2532,48 @@
                         "Name":"tconstruct:ore",
                         "Properties":{
                            "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
                         }
                      }
                   ]
@@ -1384,6 +2600,48 @@
                         "Properties":{
                            "type":"ardite"
                         }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
+                        }
                      }
                   ]
                },
@@ -1408,6 +2666,48 @@
                         "Name":"tconstruct:ore",
                         "Properties":{
                            "type":"ardite"
+                        }
+                     },
+                     {
+                        "Name":"magicbees:hiveblock",
+                        "Properties":{
+                           "hivetype":"infernal"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"minecraft:glowstone"
+                     },
+                     {
+                        "Name":"minecraft:lava"
+                     },
+                     {
+                        "Name":"minecraft:flowing_lava"
+                     },
+                     {
+                        "Name":"minecraft:soul_sand"
+                     },
+                     {
+                        "Name":"minecraft:quartz_ore"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"glowstone"
                         }
                      }
                   ]
@@ -1577,6 +2877,12 @@
                         "Name":"minecraft:end_stone"
                      },
                      {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"ender"
+                        }
+                     },
+                     {
                         "Name":"minecraft:air"
                      },
                      {
@@ -1613,7 +2919,159 @@
          "generateWhen":null,
          "spawnSize":128,
          "spawnTries":1,
-         "spawnProbability":0.0025,
+         "spawnProbability":0.25,
+         "minHeight":-Infinity,
+         "maxHeight":-0.75
+      },
+      {
+         "blockstate":{
+            "Name":"thermalfoundation:ore_fluid",
+            "Properties":{
+               "type":"ender"
+            }
+         },
+         "biomes":null,
+         "placeBlockWhen":{
+            "allOf":[
+               {
+                  "x":1,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"ender"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     }
+                  ]
+               },
+               {
+                  "x":-1,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"ender"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":1,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"ender"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":-1,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"ender"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "z":1,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"ender"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "z":-1,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"ender"
+                        }
+                     },
+                     {
+                        "Name":"minecraft:air"
+                     }
+                  ]
+               },
+               {
+                  "x":0,
+                  "y":0,
+                  "z":0,
+                  "blocks":[
+                     {
+                        "Name":"minecraft:end_stone"
+                     }
+                  ]
+               }
+            ]
+         },
+         "generateWhen":{
+            "x":0,
+            "y":0,
+            "z":0,
+            "blocks":[
+               {
+                  "Name":"minecraft:end_stone"
+               }
+            ]
+         },
+         "spawnSize":17,
+         "spawnTries":7,
+         "spawnProbability":1,
          "minHeight":-Infinity,
          "maxHeight":-0.75
       },
@@ -1636,6 +3094,12 @@
                         "Name":"minecraft:end_stone"
                      },
                      {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"ender"
+                        }
+                     },
+                     {
                         "Name":"minecraft:air"
                      }
                   ]
@@ -1647,6 +3111,12 @@
                   "blocks":[
                      {
                         "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"ender"
+                        }
                      },
                      {
                         "Name":"minecraft:air"
@@ -1662,6 +3132,12 @@
                         "Name":"minecraft:end_stone"
                      },
                      {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"ender"
+                        }
+                     },
+                     {
                         "Name":"minecraft:air"
                      }
                   ]
@@ -1673,6 +3149,12 @@
                   "blocks":[
                      {
                         "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"ender"
+                        }
                      },
                      {
                         "Name":"minecraft:air"
@@ -1688,6 +3170,12 @@
                         "Name":"minecraft:end_stone"
                      },
                      {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"ender"
+                        }
+                     },
+                     {
                         "Name":"minecraft:air"
                      }
                   ]
@@ -1699,6 +3187,12 @@
                   "blocks":[
                      {
                         "Name":"minecraft:end_stone"
+                     },
+                     {
+                        "Name":"thermalfoundation:ore_fluid",
+                        "Properties":{
+                           "type":"ender"
+                        }
                      },
                      {
                         "Name":"minecraft:air"
