@@ -2919,7 +2919,7 @@
          "generateWhen":null,
          "spawnSize":128,
          "spawnTries":1,
-         "spawnProbability":0.25,
+         "spawnProbability":0.0025,
          "minHeight":-Infinity,
          "maxHeight":-0.75
       },
